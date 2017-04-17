@@ -3,14 +3,14 @@ var person = require('./person');
 var http = require('http');
 
 
-var person_a =
-	{
-		voornaam : 'Diederich',
-		achternaam : 'Kroeske',
-		leeftijd : 48,
-		hobby: 'programmeren'
-	}
-;
+// var person_a =
+// 	{
+// 		voornaam : 'Diederich',
+// 		achternaam : 'Kroeske',
+// 		leeftijd : 48,
+// 		hobby: 'programmeren'
+// 	}
+// ;
 
 // var person_b = [
 // 	{
@@ -41,6 +41,6 @@ http.createServer( function(request, response) {
 	//response.end( JSON.stringify({user:'diederich', id:6 }) );
 	response.end( JSON.stringify(person.i18l('uk')) );
 
-}).listen(8080);
+}).listen(10000);
 
-console.log('All the fun happens on port 8080')
+console.log('All the fun happens on port 1000')
