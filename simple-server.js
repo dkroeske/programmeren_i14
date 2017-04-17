@@ -2,7 +2,6 @@ var person = require('./person');
 
 var http = require('http');
 
-
 // var person_a =
 // 	{
 // 		voornaam : 'Diederich',
