@@ -1,0 +1,20 @@
+{
+  "name": "prog14",
+  "version": "1.0.0",
+  "description": "Node test @ Heroku",
+  "main": "simple-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node simple-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkroeske/programmeren_i14.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkroeske/programmeren_i14/issues"
+  },
+  "homepage": "https://github.com/dkroeske/programmeren_i14#readme"
+}
