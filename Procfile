@@ -1,1 +1,1 @@
-web: node simple-erver.js
+web: node simple-server.js
